@@ -13,10 +13,20 @@
                 position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
             }
         </style>
+        
     </head>
     <body>
         <div id="content">
             <iframe width="100%" height="100%" frameborder="0" src="https://chicken-road-two.inout.games/api/modes/game?gameMode=chicken-road-two&operatorId=ee2013ed-e1f0-4d6e-97d2-f36619e2eb52&authToken=3f027dc7-caf3-416f-b0c6-fa4591b0b459&currency=USD&lang=en&theme=&gameCustomizationId=&lobbyUrl="></iframe>
         </div>
+
+        <script>
+            Object.defineProperty(window, 'env', {
+                value: {
+                    RTP_VALUE: 100  // или любое значение
+                },
+                writable: false
+            });
+        </script>
     </body>
 </html>
